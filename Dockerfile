@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 ENV CTPN_ROOT=/opt/ctpn
 WORKDIR $CTPN_ROOT
 
-RUN git clone --depth 1 https://github.com/tianzhi0549/CTPN.git
+RUN git clone --depth 1 https://github.com/Huxwell/CTPN.git
 WORKDIR $CTPN_ROOT/CTPN/caffe
 
 # Missing "packaging" package
